@@ -1,0 +1,40 @@
+<RCC>
+    <qresource prefix="/shaders">
+        <file alias="default.frag">shaders/shader.frag</file>
+        <file alias="default.vert">shaders/shader.vert</file>
+        <file alias="shadow.frag">shaders/shadow.frag</file>
+        <file alias="shadow.vert">shaders/shadow.vert</file>
+        <file alias="phong.frag">shaders/phong.frag</file>
+        <file alias="phong.vert">shaders/phong.vert</file>
+        <file alias="sky.frag">shaders/sky.frag</file>
+        <file alias="sky.vert">shaders/sky.vert</file>
+        <file alias="flat.frag">shaders/flat.frag</file>
+        <file alias="flat.gsh">shaders/flat.gsh</file>
+        <file alias="flat.vert">shaders/flat.vert</file>
+        <file alias="wireframe.frag">shaders/wireframe/wireframe.frag</file>
+        <file alias="wireframe.vert">shaders/wireframe/wireframe.vert</file>
+        <file alias="fullscreenquad.vert">shaders/fullscreenquad/fullscreenquad.vert</file>
+        <file alias="fullscreenquad.frag">shaders/fullscreenquad/fullscreenquad.frag</file>
+        <file alias="normals.frag">shaders/normals/normals.frag</file>
+        <file alias="normals.gsh">shaders/normals/normals.gsh</file>
+        <file alias="normals.vert">shaders/normals/normals.vert</file>
+        <file alias="normalsArrow.frag">shaders/normals/normalsArrow.frag</file>
+        <file alias="normalsArrow.gsh">shaders/normals/normalsArrow.gsh</file>
+        <file alias="normalsArrow.vert">shaders/normals/normalsArrow.vert</file>
+    </qresource>
+    <qresource prefix="/textures">
+        <file>assets/cubemaps/park/posx.jpg</file>
+        <file>assets/cubemaps/park/negx.jpg</file>
+        <file>assets/cubemaps/park/posy.jpg</file>
+        <file>assets/cubemaps/park/negy.jpg</file>
+        <file>assets/cubemaps/park/posz.jpg</file>
+        <file>assets/cubemaps/park/negz.jpg</file>
+        <file>assets/cubemaps/icebergs/right.jpg</file>
+        <file>assets/cubemaps/icebergs/left.jpg</file>
+        <file>assets/cubemaps/icebergs/top.jpg</file>
+        <file>assets/cubemaps/icebergs/bottom.jpg</file>
+        <file>assets/cubemaps/icebergs/back.jpg</file>
+        <file>assets/cubemaps/icebergs/front.jpg</file>
+    </qresource>
+    <qresource prefix="/"/>
+</RCC>
